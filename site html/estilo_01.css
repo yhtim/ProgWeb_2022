@@ -1,32 +1,79 @@
 .container{
-    margin: 0 auto;
-    width: 960px;
+	margin: 0 auto;
+	width: 960px;
 }
-body {
-    font-family: "Times New Roman", times, serif;
-    line-height: 1.6;
-    background: #FAEBD7 ;
+
+body{
+	font-family:"Lucida Sans Unicode", Verdana, sans-serif;
+	line-height: 1.6;
+	background: #DAF7A6  url('noise.png');
 }
+
 .lugar{
-    border-color: #CCC #999 #999 #CCC;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 20px;
-    padding: 10px;
+	border-color: #CCC #999 #999 #CCC;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 10px;
 }
-.lugar h2{
-    border-bottom: 1px dashed #5c6818;
-    margin: 0;
+
+.lugar h2 {
+	border-bottom: 1px dashed #5C6818;
+	margin: 0;
 }
+
 .lugar a {
-    color: #2C11AF;
-    font-weight: bold;
+	color: #2C11AF;
+	font-weight: bold;
 }
-a{
-    color: #2C88A7;
-    text-decoration: none;
+
+.lugar img {
+	height: 160px; /* e o width*?? */
+	border: 1px solid black;
+	float: left;
+	margin: 10px 10px 0 0;
+	padding: 2px;
 }
-a:hover { 
-    color: white;
-    background-color: black;
+	
+a {
+	color: #2C88A7;
+	text-decoration: none;
 }
+
+a:hover{
+	color: white;
+	background-color: black;
+}
+
+.clear{
+	/* signifca que não quer nenhum float dos lados */
+	clear: both; /*opções: none, left, right, both*/
+}
+
+footer{
+	text-align: center;
+	font-size: 12px;
+	
+}
+
+.todosLugares{
+	float: left;
+	width: 660px;
+}
+
+.notas{
+	background-color: rgba(210,210,210,0.3);
+	padding: 10px;
+}
+.notas h3{
+	font-size: 14px;
+	margin-top:0;
+}
+.notas ol{
+	font-size: 12px;
+}
+
+.notas {
+	float: right;
+}
+
