@@ -1,12 +1,12 @@
 .container{
 	margin: 0 auto;
-	width: 960px;
+	width: 1220px;
 }
 
 body{
 	font-family:"Lucida Sans Unicode", Verdana, sans-serif;
 	line-height: 1.6;
-	background: #DAF7A6  url('noise.png');
+	background: #b8d0d1  url('noise.png');
 }
 
 .lugar{
@@ -15,6 +15,7 @@ body{
 	border-width: 1px;
 	margin-bottom: 20px;
 	padding: 10px;
+	background-color: rgba(210,210,210,0.3);
 }
 
 .lugar h2 {
@@ -28,7 +29,8 @@ body{
 }
 
 .lugar img {
-	height: 160px; /* e o width*?? */
+	height: 200px; /* e o width*?? */
+	width: 300px;
 	border: 1px solid black;
 	float: left;
 	margin: 10px 10px 0 0;
@@ -36,7 +38,7 @@ body{
 }
 	
 a {
-	color: #2C88A7;
+	color: #2C11AF;
 	text-decoration: none;
 }
 
@@ -63,17 +65,53 @@ footer{
 
 .notas{
 	background-color: rgba(210,210,210,0.3);
-	padding: 10px;
+	padding: 20px;
 }
 .notas h3{
 	font-size: 14px;
 	margin-top:0;
 }
 .notas ol{
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .notas {
 	float: right;
+	right: 260px;
+}
+
+
+.nova{
+	border-color: #CCC #999 #999 #CCC;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 200px;
+	padding: 1px;
+	background-color: rgba(210,210,210,0.3);
+	float: right;
+}
+
+.tabela  {
+	
+	background-color: rgba(210,210,210,0.3);
+	width: 500px;
+	float: right;
+	border-style: hidden;
+	border-collapse: collapse;
+	 
+}
+
+.tabela th, td{
+	border: 1px solid black ;
+	border-collapse: collpase;
+}
+
+.linhaDois{
+		text-align: right;
+}
+	
+.linhaum{
+		text-align: center;
+		width: 27%;
 }
 
