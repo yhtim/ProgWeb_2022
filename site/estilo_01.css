@@ -116,3 +116,11 @@ footer{
 		width: 26%;
 }
 
+iframe{
+	display: block;
+	border-style: none;
+	margin: 0;
+	float: right;
+  
+}
+
