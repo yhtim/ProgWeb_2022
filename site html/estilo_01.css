@@ -15,7 +15,7 @@ body{
 	border-width: 1px;
 	margin-bottom: 20px;
 	padding: 10px;
-	background-color: rgba(210,210,210,0.3);
+	background-color: rgba(241, 238, 200, 1);
 }
 
 .lugar h2 {
@@ -64,7 +64,7 @@ footer{
 }
 
 .notas{
-	background-color: rgba(210,210,210,0.3);
+	background-color: rgba(241, 238, 200, 1);
 	padding: 20px;
 }
 .notas h3{
@@ -82,6 +82,7 @@ footer{
 
 
 .nova{
+	margin-top: 15px;
 	border-color: #CCC #999 #999 #CCC;
 	border-style: solid;
 	border-width: 1px;
@@ -93,7 +94,7 @@ footer{
 
 .tabela  {
 	
-	background-color: rgba(210,210,210,0.3);
+	background-color: rgba(241, 238, 200, 1);
 	width: 500px;
 	float: right;
 	border-style: hidden;
@@ -112,6 +113,6 @@ footer{
 	
 .linhaum{
 		text-align: center;
-		width: 27%;
+		width: 26%;
 }
 
