@@ -121,6 +121,18 @@ iframe{
 	border-style: none;
 	margin: 0;
 	float: right;
-  
+    height: 272px;
+	width: 500px;
 }
 
+.mapa{
+	margin-top: -297px;
+	border-color: #CCC #999 #999 #CCC;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 200px;
+	padding: 1px;
+	background-color: rgba(210,210,210,0.3);
+	float: right;
+	
+	
