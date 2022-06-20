@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>pagina_06.html</title>
+		<meta charset="UTF-8" />
+	</head>
+	
+	<body>
+		<h1>Exemplos de Formulário</h1>
+		<form>
+			<fieldset>
+
+				<legend>Entrada de texto</legend>
+				<p>
+				<label>Caixa de texto</label>
+				<input type="text" id="myText" value="text here" />
+				</p>
+				
+				<p>
+				<label>Senha</label>
+				<input type="password" id="myPwd" value="secret" />
+				</p>
+				
+				<p>
+				<label>Área de Texto</label>
+				<textarea id="myTextArea" rows="3" cols="80">Seu texto aqui</textarea>
+				</p>
+			
+			</fieldset>
+			
+			<fieldset>
+
+				<legend>Selecionando elementos</legend>
+				<p>
+				<label>Lista de Seleção</label>
+				<select id="myList">
+					<option value="1">um</option>
+					<option value="2">dois</option>
+					<option value="3">três</option>
+					<option value="4">quatro</option>
+				</select>
+				</p>
+				
+				<p>
+				<label>Caixa de Marcação (Check box)</label>
+				<input type="checkbox" id="chkOvos" value="ovosVerdes" />
+				<label for="chkOvos">Ovos Verdes</label>
+				<input type="checkbox" id="chkPresunto" value="Presunto" />
+				<label for="chkPresunto">Presunto</label>
+				</p>
+				
+				<p>
+				<label>Botões Radio</label>
+				<input type="radio" name="radSize" id="sizeSmall" value="pequeno" checked="checked" />
+				<label for="sizeSmall">pequeno</label>
+				<input type="radio" name="radSize" id="sizeMed" value="medio" />
+				<label for="sizeMed">médio</label>
+				<input type="radio" name="radSize" id="sizeLarge" value="grande" />
+				<label for="sizeLarge">grande</label>
+				</p>
+
+			</fieldset>
+			
+			<fieldset>
+
+				<legend>Botões</legend>
+				<p>
+				<button type="button">Botão padrão</button>
+				<input type="button" value="Botão de entrada" />
+				<input type="reset" />
+				<input type="submit" />
+				</p>
+			
+			</fieldset>
+	
+		</form>
+	
+	</body>
+</html>
+<!--
+1. Qual a finalidade de um formulário em HTML?
+2. Qual a função do fieldset? Qual a aparência dele na página e como alterar seu título?
+3. Qual a diferença da caixa de texto para a área de texto?
+4. Como os valores de seleção podem ser exibidos (organizados) para o usuário?
+5. Quais os tipos de botões que podem ser utilizados e quais as finalidades de cada um?
+6. Qual a diferença das caixas de marcação para os botões radio?
+7. Insira um novo grupo de entradas para as seguintes informações:
+   a) Nome;
+   b) Idade;
+   c) Sexo: Masculino ou Feminino;
+   d) Interesses: Jogos, Música, Futebol, Leitura, outros;
+8. Verifique suas páginas no site: http://validator.w3.org/   
+-->
