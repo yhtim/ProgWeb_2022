@@ -96,12 +96,13 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14922.721669816356!2d-41.544493668200815!3d-20.76374341419133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbbebc3e50e781f%3A0x7bb8edafd6ede49f!2sAlegre%2C%20ES%2C%2029500-000!5e0!3m2!1spt-BR!2sbr!4v1655331388681!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	</div>
 	
+	<h2>Formulário para contato:</h2>
 	<form>
 		<label for="nome">Nome do remetente:</label><br>
 		<input type="text" id="nome" name="nome"><br>
 	</form><br>
 	
-	<form>
+	<form method="post" novalidate>
 		<p><label for="catd_msn">Categoria de mensagem:</label></p>
 		<input type="radio" id="turismo" name="categoria" value="TURISMO">
 		<label for="turismo">Turismo;</label><br>
@@ -113,10 +114,11 @@
 		<label for="outro_assunto">Outro assunto;</label>
 	</form><br>
 			
-	<form>
-		<p><label for="msn"> Escreva sua Mensagem</label><br></p>
+	<form method="post" novalidate>
+		<p><label for="msn"> Escreva sua Mensagem:</label><br></p>
 		<textarea id="msn" name="msn" rows="4" cols="50">
-		</textarea>
+		</textarea><br>
+		<input type="submit" value="Enviar">
 	</form>
 	
 	
