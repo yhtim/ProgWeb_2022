@@ -1,0 +1,68 @@
+@media print {
+	*{
+		color: blue !important;
+		background:transparent !important! ;
+		border-color: black !important! ;
+		box-shadow: none !important;
+		text-shadow: none !important;
+		
+		
+		
+	}
+}
+div.example {
+  background-color: yellow;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
+body {
+  background-color: lightblue;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
+@font-face {
+font-family: "Lobster";
+font-style: normal;
+font-weight: 400;
+src: local('Lobster'), url(/fonts/lobster.woff)
+format('woff');
+}
+h2,div{
+	font-family: "Lobster", cursive;
+}
+p{
+	font-family: "Press Start 2P", cursive;
+}
+.tnt{
+	border-radius: 50%;
+	border: 5px solid red;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+	color: red;
+}
+.counter{
+	background-color: #000;
+	border-top-left-radius: 25px 10px;
+	border-top-right-radius: 25px 10px;
+	color: white;		display: block;
+	font-size: 1.7em;	height: 50px;
+	line-height: 50px;	text-align: center;
+	width: 50px;
+}
