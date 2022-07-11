@@ -1,0 +1,12 @@
+.seletor{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.seletor div{
+	background-color: #AFA;
+}
+.seletor > div{
+	color: #00F;
+	font-size: 20px;
+}
