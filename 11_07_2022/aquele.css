@@ -1,0 +1,95 @@
+
+
+figure{
+	position: relative;
+}
+img{
+	display: block;
+}
+figcaption{
+	bottom: 5px;
+	margin: -50px 5px;
+	padding: 5px;
+	position: absolute;
+	width: 300px;
+	background-color: rgba(0,0,0,0.5);
+	color: #FFF;
+}
+.omg-pink{
+	background: linear-gradient(to bottom right, #FC0050, #FF79A3);
+}
+.omg-pink,#sla{
+	box-shadow: 3px 3px 3px 3px #AAA;
+	background-color: lightGrenn;
+	padding: 5px;
+	width: 200px;
+	text-align: center;
+	font-weight: bold;
+}
+.in:focus{
+	border-color: #35861B;
+	box-shadow: 0 0 5px #35861B;
+	outline: line;
+}
+input:focus{
+	border-color: lightPink;
+	box-shadow: 0 0 5px lightPink;
+	outline: line;
+}
+h1{
+	background-color: #1D9AC0;
+	display: inline-block;
+	color: #FFF;
+	padding: 10px;
+	 font-weight: bold;
+	 text-shadow: 2px 4px 2px rgba(0,0,0,0.5);
+}
+h4{
+	clear: both;
+}
+
+span{
+	background-color: lightBlue;
+	display: block;
+}
+.lp{
+	background-color: green;
+	display: inline;
+	
+}
+#one{
+	float: left;
+	margin: 0 20px 20px 0;
+}
+*{
+	box-sizing: border-box;
+}
+.box{
+	float: left;
+	width:33.33%;
+	padding:50px;
+	background: linear-gradient(to top, #F5B951 48%, #F2A31C 56%); 
+	border: 1px solid white;
+}
+.clearfix{
+	content: "";
+	clear: both;
+	display: table;
+}
+.clint_eastwood{
+	column-count: 5;
+	column-gap: 10px;
+	column-rule: 1px solid #666;
+	font-size: 1.2em;
+	width: 500px;
+}
+.clint_eastwood::before{
+		content: "\266B";
+		font-size: 19px;
+		margin-right: 0px;
+}
+.clint_eastwood::after{
+	content: "\266B";
+	font-size: 19px;
+	margin-left: 2px;
+}
